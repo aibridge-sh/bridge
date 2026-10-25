@@ -1,0 +1,10 @@
+# Only the two forms: a blank issue would skip the boxes the maintainers
+# triage by. (This governs GitHub's web chooser; Bridge's in-app "Post as"
+# writes the same headings itself.)
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem privately
+    url: https://github.com/aibridge-sh/bridge/security/advisories/new
+    about: Never post a vulnerability as a public issue. This opens a private report only the maintainers can see.
+  # GitHub's chooser does not take mailto: links — support@ is named in the
+  # forms and the README instead.

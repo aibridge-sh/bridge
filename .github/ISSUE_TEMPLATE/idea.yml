@@ -1,0 +1,38 @@
+# Bridge's idea form. Field ids are FROZEN — see bug.yml.
+name: Suggest a feature
+description: Something Bridge could do that would make your work easier.
+title: ""
+labels: [idea]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are public, and others can add a 👍 to the ones they want too.
+        A question about your licence or a payment? Email support@aibridge.sh instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What is hard or slow today, and when you run into it.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion
+    validations:
+      required: false
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+    validations:
+      required: false
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System info
+      description: Optional. Bridge fills this in when you ask it to.
+      render: text
+    validations:
+      required: false

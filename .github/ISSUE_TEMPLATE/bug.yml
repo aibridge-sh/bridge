@@ -1,0 +1,46 @@
+# Bridge's bug form. The field ids are a FROZEN contract: every installed
+# copy of Bridge pre-fills this form by them (src/shared/feedback-form.ts,
+# held equal to this file by src/shared/feedback-form.test.ts). Rename one
+# and that box arrives empty from every copy until it updates.
+name: Report a bug
+description: Something in Bridge doesn't work the way it should.
+title: ""
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Issues are public: please leave out anything private.
+        A security problem? Report it privately: https://github.com/aibridge-sh/bridge/security/advisories/new
+        A question about your licence or a payment? Email support@aibridge.sh. Please don't post either here.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, and what Bridge did. Paste the error message if there was one.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a workspace
+        2. Put the Mac to sleep
+        3. Wake it
+    validations:
+      required: false
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System info
+      description: Bridge fills this in when you report from the app (Settings › Send feedback, or Help › Report a Bug). The maintainers may ask for Help › Copy Diagnostics by email if they need more.
+      render: text
+    validations:
+      required: false
