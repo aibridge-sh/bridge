@@ -81,5 +81,5 @@ Issues are public and stay public. Leave out anything private: tokens, customer 
 </p>
 
 <p align="center">
-  <sub>Made by CyberNucleus Pty Ltd, trading as AI Bridge sh.<br>AI Bridge is signed and notarised under CyberNucleus Pty Ltd's Apple Developer ID.</sub>
+  <sub>© 2026 CyberNucleus Pty Ltd, trading as AI Bridge sh.<br>Proprietary software, licensed under the <a href="https://aibridge.sh/terms">AI Bridge Terms</a>. Signed and notarised under CyberNucleus Pty Ltd's Apple Developer ID.</sub>
 </p>
