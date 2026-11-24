@@ -12,7 +12,7 @@ See which one needs you, and pick any up tomorrow where it stopped.
 </p>
 
 <p align="center">
-  <sub>Free to start · macOS · Apple silicon and <a href="https://aibridge.sh/download/x64?src=github">Intel</a> · Signed and notarised</sub>
+  <sub>Free to try · macOS · Apple silicon and <a href="https://aibridge.sh/download/x64?src=github">Intel</a> · Signed and notarised</sub>
 </p>
 
 <br>
@@ -59,7 +59,7 @@ Updates come from this repository's [releases](../../releases). AI Bridge tells 
 
 **Where does my work live?** On your Mac. Your workspaces are plain files in `~/Bridge`.
 
-**What does it cost?** It's free to start. The plans are on [aibridge.sh](https://aibridge.sh/?src=github#pricing).
+**What does it cost?** It's free to try: sign in and you get 31 days of everything, no card needed. Then it's Pro or Team, on [aibridge.sh](https://aibridge.sh/?src=github#pricing).
 
 ## Report a bug or suggest a feature
 
@@ -77,7 +77,7 @@ Issues are public and stay public. Leave out anything private: tokens, customer 
 <br>
 
 <p align="center">
-  <a href="https://aibridge.sh/?src=github"><img src=".github/readme/start.webp" width="100%" alt="Give your agents somewhere to live. Free to start, macOS, Apple silicon and Intel. aibridge.sh"></a>
+  <a href="https://aibridge.sh/?src=github"><img src=".github/readme/start.webp" width="100%" alt="Give your agents somewhere to live. Free to try, macOS, Apple silicon and Intel. aibridge.sh"></a>
 </p>
 
 <p align="center">
